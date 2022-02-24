@@ -1,0 +1,96 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Nanoid</name>
+    </assembly>
+    <members>
+        <member name="T:Nanoid.CryptoRandom">
+            <inheritdoc />
+            <summary>
+            </summary>
+        </member>
+        <member name="M:Nanoid.CryptoRandom.#ctor">
+            <inheritdoc />
+            <summary>
+            </summary>
+        </member>
+        <member name="M:Nanoid.CryptoRandom.NextBytes(System.Byte[])">
+            <summary>
+            
+            </summary>
+            <param name="buffer"></param>
+            <exception cref="T:System.ArgumentNullException"></exception>
+        </member>
+        <member name="M:Nanoid.CryptoRandom.NextDouble">
+            <inheritdoc />
+            <summary>
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Nanoid.CryptoRandom.Next(System.Int32,System.Int32)">
+            <inheritdoc />
+            <summary>
+            </summary>
+            <param name="minValue"></param>
+            <param name="maxValue"></param>
+            <returns></returns>
+            <exception cref="T:System.ArgumentOutOfRangeException"></exception>
+        </member>
+        <member name="M:Nanoid.CryptoRandom.Next">
+            <inheritdoc />
+            <summary>
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Nanoid.CryptoRandom.Next(System.Int32)">
+            <inheritdoc />
+            <summary>
+            </summary>
+            <param name="maxValue"></param>
+            <returns></returns>
+            <exception cref="T:System.ArgumentOutOfRangeException"></exception>
+        </member>
+        <member name="T:Nanoid.Nanoid">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:Nanoid.Nanoid.GenerateAsync(System.String,System.Int32)">
+            <summary>
+            
+            </summary>
+            <param name="alphabet"></param>
+            <param name="size"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Nanoid.Nanoid.Generate(System.String,System.Int32)">
+            <summary>
+            
+            </summary>
+            <param name="alphabet"></param>
+            <param name="size"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Nanoid.Nanoid.Generate(System.Random,System.String,System.Int32)">
+            <summary>
+            
+            </summary>
+            <param name="random"></param>
+            <param name="alphabet"></param>
+            <param name="size"></param>
+            <returns></returns>
+            <exception cref="T:System.ArgumentNullException"></exception>
+            <exception cref="T:System.ArgumentOutOfRangeException"></exception>
+        </member>
+        <member name="M:Nanoid.Nanoid.Clz32(System.Int32)">
+            <summary>
+            Counts leading zeros of <paramref name="x"/>.
+            </summary>
+            <param name="x">Input number.</param>
+            <returns>Number of leading zeros.</returns>
+            <remarks>
+            Courtesy of spender/Sunsetquest see https://stackoverflow.com/a/10439333/623392.
+            </remarks>
+        </member>
+    </members>
+</doc>

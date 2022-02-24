@@ -1,0 +1,9 @@
+<ApplicationInsights xmlns="http://schemas.microsoft.com/ApplicationInsights/2013/Settings" xmlns:xdt="http://schemas.microsoft.com/XML-Document-Transform">
+  <TelemetryProcessors xdt:Transform="InsertIfMissing">
+    <Add xdt:Transform="InsertIfMissing" xdt:Locator="Match(Type)" Type="Microsoft.ApplicationInsights.SnapshotCollector.SnapshotCollectorTelemetryProcessor, Microsoft.ApplicationInsights.SnapshotCollector">
+      <!-- Snapshot Debugging is usually disabled when debugging in Visual Studio, but you can enable it by setting this to true. -->
+      <IsEnabledInDeveloperMode>false</IsEnabledInDeveloperMode>
+      <!-- Other properties are documented at https://aka.ms/pnv0qt -->
+    </Add>
+  </TelemetryProcessors>
+</ApplicationInsights>
